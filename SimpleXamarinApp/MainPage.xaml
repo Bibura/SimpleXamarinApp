@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleXamarinApp.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+        <Label Text="0"
+               x:Name="CounterLabel"
+               TextColor="Aquamarine"
+               FontSize="72"
+               FontFamily="ComicSans"
+               HorizontalOptions="Center"
+            />
+        <Entry 
+            Completed="Entry_Completed"
+               />
+        <Button Text="Get report by ID"
+                Clicked="IncrementCounterClicked"
+                FontSize="46"
+                />
+    </StackLayout>
+
+</ContentPage>
